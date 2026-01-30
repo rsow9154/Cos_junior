@@ -30,3 +30,8 @@ Ce dépôt fait partie du projet **COS Junior** et utilise des noms de fichiers 
 cd Cos_junior/washonline-front
 npm install
 npm start
+
+cd Cos_junior/washonline-back
+./mvnw spring-boot:run
+
+docker-compose up --build
